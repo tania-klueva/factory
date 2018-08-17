@@ -5,11 +5,8 @@ import java.util.List;
 
 public class Pizza {
     String name;
-    List<String> ingr;
+    List<String> ingr = new ArrayList<String>();;
 
-    {
-        ingr = new ArrayList<String>();
-    }
 
     public Pizza(String name, List<String> ingr) {
         this.name = name;
