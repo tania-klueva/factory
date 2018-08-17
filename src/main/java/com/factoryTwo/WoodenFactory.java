@@ -2,11 +2,11 @@ package com.factoryTwo;
 
 public class WoodenFactory {
 
-    WoodenCat teddyCat(){
+    WoodenCat woodenCat(){
         return new WoodenCat();
     }
 
-    WoodenBear teddyBear(){
+    WoodenBear woodenBear(){
         return new WoodenBear();
     }
 }
